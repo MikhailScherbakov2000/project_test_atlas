@@ -1,0 +1,44 @@
+.header_wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+.logo_header {
+    cursor: pointer;
+}
+
+.logo_header {
+    max-width: 90%;
+}
+
+.logo_header:hover {
+    transform: scale(0.95);
+    transition: 0.4s;
+}
+
+.logo_header:active {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+#button_header {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #b42610;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#button_header:hover {
+    background-color: #a02513;
+}
+
+#button_header:active {
+    background-color: #721d10;
+}
+
